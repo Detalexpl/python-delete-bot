@@ -7,3 +7,4 @@ time.sleep(10)
 while True:
     time.sleep(0.1)
     keyboard.press(Key.delete)
+    keyboard.pressed(Key.delete)
