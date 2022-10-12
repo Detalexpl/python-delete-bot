@@ -5,6 +5,6 @@ keyboard = Controller()
 
 time.sleep(10)
 while True:
-    time.sleep(0.1)
+    time.sleep(0.001)
     keyboard.press(Key.delete)
     keyboard.pressed(Key.delete)
